@@ -6,7 +6,9 @@ module.exports = {
   theme: {
     extend: {},
     fontFamily: {
-      // 'space' : ['Space Grotesk', 'sans-serif']
+      'arab' : ['IBM Plex Sans Arabic', 'sans-serif'],
+      'kali' : ['Birthstone Bounce', 'cursive'],
+      'kali2' : ['Norican', 'regular400']
   },
   },
   plugins: [require("tw-elements/dist/plugin.cjs")],
